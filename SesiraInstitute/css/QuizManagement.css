@@ -1,0 +1,163 @@
+﻿.Qdashboard {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 50px;
+}
+
+
+.Qfooter {
+    background-color: rgba(137, 243, 148, 0.69);
+}
+
+
+
+.baseColor {
+    background-color: rgba(137, 243, 148, 0.27);
+    border-radius: 50px;
+}
+
+.up {
+    
+    min-height: 13vh;
+}
+
+.down {
+    background-color: white;
+    min-height: 70vh;
+    border-radius:20px;
+
+}
+
+.sidenevbar {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 20px;
+    font-weight:800;
+    font-size:17px;
+    text-align:left;
+    width: 170px;
+    padding: 9px;
+    margin: 4px;
+}
+
+.colorBtn {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 50px;
+}
+.iconBtn {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 50px;
+}
+
+.iconBtn:link{
+    color:black;
+
+}
+
+/*Edit Quiz*/
+
+.txbox{
+    border-radius:7px;
+}
+
+.letter {
+    text-align: right;
+}   
+
+.finishbtn {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 20px;
+    width: 100px;
+}
+
+.nextbtn {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 20px;
+    width: 100px;
+}
+
+/*View Quiz*/
+
+.TSbx{
+    border-radius:7px;
+}
+
+.plusBtn {
+    background-color: rgba(137, 243, 148, 0.69);
+    border-radius: 50px;
+}
+
+.plusBtn:link {
+        color: black;
+
+}
+
+/*Quiz Details*/
+
+.TopicHead {
+    background-color:rgba(137, 243, 148, 0.69);
+    border: none;
+    padding: 7px 40px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+
+.QDfontsize{
+    font-size: 16px;
+}
+
+
+/*Student Master*/
+
+.SQdashboard {
+    background-color: rgba(160, 200, 222, 0.69);
+    border-radius: 50px;
+}
+
+
+.SQfooter {
+    background-color: rgba(160, 200, 222, 0.69);
+}
+
+
+
+.SbaseColor {
+    background-color: rgba(160, 200, 222, 0.27);
+    border-radius: 50px;
+}
+
+.ScolorBtn {
+    background-color: rgba(160, 200, 222, 0.69);
+    border-radius: 50px;
+}
+.SiconBtn {
+    background-color: rgba(160, 200, 222, 0.69);
+    border-radius: 50px;
+}
+
+.SiconBtn:link{
+    color:black;
+
+}
+
+/*Answering page*/
+
+.S_up {
+    min-height: 13vh;
+    
+}
+
+.S_down {
+    background-color: white;
+    min-height: 70vh;
+    border-radius: 20px;
+}
+
+.txbox {
+    border-radius: 7px;
+}
+
+.letter {
+    text-align: right;
+} 
+

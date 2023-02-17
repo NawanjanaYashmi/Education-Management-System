@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="tESTmANAGEMENT.master.cs" Inherits="SesiraInstitute.tESTmANAGEMENT" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link href="css/StyleSheet.css" rel="stylesheet" />
+     
+<!-- css files -->
+    <!-- data tables css -->
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!-- font awesome css -->
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- CONTAINER FOR THE WHITE BACKGROUD -->
+            <div class="container-fluid basicContainer">
+                <!--CONTAINER FOR THE LIGHTBLUE BACKGROUD-->
+                     <div class="container-fluid baseColor">
+                            <div class="row"  >
+                                <div class="col-xs-3 maxHeight  Edashboard" >
+                                    
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col">
+                                                <center>
+                                                    <img src="Images/SesiraLogo.png" class="img-fluid" alt="Responsive image" style="height: auto; width: 75%; display: block;margin-top:10px;">
+                                                </center>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                          <div class="col">
+                                            <center>
+                                            
+                                          </div>  
+                                        </div>
+                                      
+
+                                    </div>
+                                        
+                          
+                                    
+                                    
+                                </div>
+            
+                                <div class="col-xs-9 maxHeight Ebody ">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+
+                       </div>
+
+            </div>
+                            
+            <div class="footer container-fluid Efooter" >
+                  <p> kjsf jafn akjn fakjsfn akjfn akjsfn ajsfn akjsfn akjfn a</p>
+            </div>
+                           
+
+                     
+            
+        
+       
+                     
+            
+        
+    </form>
+
+
+
+
+
+</body>
+</html>
+

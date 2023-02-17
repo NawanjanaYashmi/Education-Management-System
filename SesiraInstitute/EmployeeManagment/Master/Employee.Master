@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Employee.master.cs" Inherits="SesiraInstitute.Employee" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="../../css/StyleSheet.css" rel="stylesheet" />
+    <!-- data tables jQuary -->
+    <script src="../../datatables/js/jquery.dataTables.min.js"></script>
+<!-- css files -->
+    <!-- data tables css -->
+    <link href="../../datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!-- font awesome css -->
+    <link href="../../fontawesome/css/all.css" rel="stylesheet" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <!-- CONTAINER FOR THE WHITE BACKGROUD -->
+            <div class="container-fluid basicContainer">
+                <!--CONTAINER FOR THE LIGHTBLUE BACKGROUD-->
+                     <div class="container-fluid baseColor">
+                            <div class="row"  >
+                                <div class="col-xs-3 maxHeight  Edashboard" >
+                                    
+                                    <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <center>
+                                                        <img src="../../Images/SesiraLogo.png" class="img-fluid" alt="Responsive image" style="height: auto; width: 75%; display: block;margin-top:10px;">                                                    
+                                                    </center>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                              <div class="col  " >
+                                                <center>
+                                                  
+                                                    <asp:LinkButton ID="LinkButton1" runat="server" Text="Dash Board" CssClass="btn sidenevbar"  > <i class="fa-solid fa-bars"></i>&nbspDash Board</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton2" runat="server" Text="Student" CssClass="btn sidenevbar"  > <i class="fa-solid fa-user"></i>&nbspStudent</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton3" runat="server" Text="Teacher" CssClass="btn sidenevbar"  > <i class="fa-solid fa-person-chalkboard"></i>&nbspTeacher</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton4" runat="server" Text="Subject" CssClass="btn sidenevbar"  > <i class="fa-solid fa-book"></i>&nbspSubject</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton5" runat="server" Text="Employee" CssClass="btn sidenevbar" OnClick="LinkButton5_Click"  > <i class="fa-solid fa-person"></i>&nbspEmployee</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton6" runat="server" Text="Finance" CssClass="btn sidenevbar"  > <i class="fa-solid fa-coins"></i>&nbspFinance</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton7" runat="server" Text="Exam" CssClass="btn sidenevbar"  > <i class="fa-solid fa-file"></i>&nbspExam</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton8" runat="server" Text="Notification" CssClass="btn sidenevbar"  > <i class="fa-solid fa-bell"></i>&nbspNotification</asp:LinkButton><br>
+                                                    <asp:LinkButton ID="LinkButton9" runat="server" Text="Study Materials" CssClass="btn sidenevbar"  > <i class="fa-solid fa-receipt"></i>&nbspStudy Materials</asp:LinkButton><br>
+
+                                                </center>                                           
+                                              </div>  
+                                            </div>                                     
+                                        </div>
+                                        
+                          
+                                    
+                                    
+                                </div>
+            
+                                <div class="col-xs-9 maxHeight Ebody ">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+
+                       </div>
+
+            </div>
+                            
+            <div class="footer container-fluid Efooter" >
+                  <div class="container-fluid">
+                      <div class="row footstyle" >
+                          <div class="col-xs-2"></div>                            
+                          
+                          <div class="col-xs-3">
+                              design by <br>
+                               ITP 0.3
+                          </div>
+                          <div class="col-xs-1"></div>
+                                                     
+                          <div class="col-xs-2">
+                             Sesira Institute<br>
+                             011 2 617 767
+                          </div>
+                          <div class="col-xs-2"></div>                            
+                          
+                          <div class="col-xs-2">
+                              Maharagama road, <br>
+                              Piliyandala
+                          </div>
+                      </div>
+                      
+                  </div>
+            </div>
+                           
+
+                     
+            
+        
+       
+                     
+            
+        
+    </form>
+
+
+
+
+
+</body>
+</html>
+
